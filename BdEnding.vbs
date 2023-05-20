@@ -1,0 +1,1 @@
+result = MsgBox ("You got Bad Ending. :(", vbOK + vbError, "Endings")

@@ -1,0 +1,7 @@
+Be sure to create a system environment variable named ver and name that your OS and version!
+Here's how:
+Search for "Environment variables"
+Press Alt+N or click on Environment Variables.
+Click on New at System Variables
+Type in the name of "ver"
+value: (Any windows [See winver for win and builds])
