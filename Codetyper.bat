@@ -66,14 +66,7 @@ cls
 @echo off
 set /a tries-=1
 if "%tries%" == "0" (
-goto bsod ) else (
-echo ============================= Error ==========================
-echo 			Error! You have %tries% tries left
-pause
-goto type )
-if "%tries%" <= "0" (
-goto bsod ) else (
-echo ============================= Error ==========================
-echo 			Error! You have %tries% tries left
-pause
-goto type )
+goto bsod
+if "%tries%" <= "0" 
+goto bsod 
+if tries == "-*" goto bsod
