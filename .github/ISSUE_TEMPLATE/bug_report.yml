@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a very clearly broken issue.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # bug report
+
+        Important to note that your issue may have already been reported before. Please check:
+        - Pinned issues, at the top of https://github.com/ppy/osu/issues.
+        - Current open `priority:0` issues, filterable [here](https://github.com/MineTurtlee/Corruption_Troll/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Apriority%3A0).
+        - And most importantly, search for your issue both in the [issue listing](https://github.com/MineTurtlee/Corruption_troll/issues) and the [Q&A discussion](https://github.com/MineTurtlee/Corruption_troll/discussions/categories/q-a). If you find that it already exists, respond with a reaction or add any further information that may be helpful.
+
+  - type: dropdown
+    attributes:
+      label: Type of the bug
+      options:
+        - Behaviour
+        - Cosmetic
+        - Other
+        - Crash
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Bug description
+      description: How did you find the bug? Any additional details that might help?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots or videos
+      description: Add screenshots or videos that show the bug here.
+      placeholder: Drag and drop the screenshots/videos into this box.
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Version
+      description: The version you encountered this bug on. See it in the batch where it displays the version in main menu!
+    validations:
+      required: true
