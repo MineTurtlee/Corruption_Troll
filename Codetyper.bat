@@ -58,9 +58,11 @@ goto error )
 : goodending
 cls
 cscript .\GdEnding.vbs
+exit
 : badending
 cls
-cscript .\bdending,vbs
+cscript .\bdending.vbs
+exit
 : Error
 cls
 @echo off
